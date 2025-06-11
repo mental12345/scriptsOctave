@@ -1,6 +1,8 @@
 %First Fick's law Diffusion problem 
 %Diffusion across a thin metal plate 
 
+graphics_toolkit('gnuplot');
+
 x = (-.05:.001:.05)';
 D = 1.2e-10; %diffusion coefficient
 Xa = 0;
